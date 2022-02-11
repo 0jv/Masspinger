@@ -8,7 +8,7 @@ class Pinger:
       self.guild = input("Guild -> ")
       self.name = input("Name -> ")
       self.message = input("Message -> ")
-      self.amount = int(input("Amount -> ")) #i should be using a config.json file at this point lmao
+      self.amount = int(input("Amount -> ")) 
       self.headers = {
         "Authorization" : f"Bot {self.token}"
       }
