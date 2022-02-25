@@ -4,7 +4,6 @@ class Pinger:
 
     def __init__(self):
       self.token = input("Token -> ")
-      self.guild = input("Guild -> ")
       self.name = input("Name -> ")
       self.message = input("Message -> ")
       self.amount = int(input("Amount -> ")) 
